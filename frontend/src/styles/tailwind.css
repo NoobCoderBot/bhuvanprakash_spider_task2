@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+
+  input, textarea, select {
+    @apply bg-gray-800 text-white placeholder-gray-400 border-gray-600;
+  }
+
+  button {
+    @apply transition;
+  }
+}
